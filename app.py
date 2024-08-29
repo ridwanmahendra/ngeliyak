@@ -83,7 +83,7 @@ def main():
     with st.sidebar:
         st.subheader("Dokumen")
         pdf_docs = st.file_uploader(
-            "Unggah PDF Kamu di sini dan klik 'Proses'", accept_multiple_files=True)
+            "Unggah Jurnal yang ingin kamu review di sini dan klik 'Proses'", accept_multiple_files=True)
         if st.button("Proses"):
             with st.spinner("Processing"):
                 # get pdf text
